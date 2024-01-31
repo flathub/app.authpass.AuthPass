@@ -45,8 +45,8 @@ modules:
     sources:
       - type: archive
         dest: authpass
-        url: https://data.authpass.app/data/artifacts/authpass-linux-1.9.7_1940.tar.gz
-        sha512: 0b5197d1a5bef880eb9b406460ee8092ced2d1f20ded7e4539a6480fcd1274129389e2b054f0237bf6a346fb2528f8fb47afc2a97ea461b2dfcb5645deebecd7
+        url: https://data.authpass.app/data/artifacts/authpass-linux-1.9.10_1994.tar.gz
+        sha512: 963fc6377148aea898676b982759db783e79dbdb80d156c33e245af626c153ea9192014398b800a8f6b927a3299414a7c65eaa7692c49f4d41299a137550d569
         dest-filename: authpass-linux-latest.tar.gz
         x-checker-data:
           type: rotating-url
