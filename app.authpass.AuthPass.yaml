@@ -45,8 +45,8 @@ modules:
     sources:
       - type: archive
         dest: authpass
-        url: https://data.authpass.app/data/artifacts/authpass-linux-1.9.7_1940.tar.gz
-        sha512: 0b5197d1a5bef880eb9b406460ee8092ced2d1f20ded7e4539a6480fcd1274129389e2b054f0237bf6a346fb2528f8fb47afc2a97ea461b2dfcb5645deebecd7
+        url: https://data.authpass.app/data/artifacts/authpass-linux-1.9.11_2007.tar.gz
+        sha512: 48f826f933802954a11426f32d36753f1e05e58a96e95d841d11a372eaa3ab077261fd63a9767ea0b1a4d274b2f5f12bb408dd69ee6bb3f6a06f4dc3419c384a
         dest-filename: authpass-linux-latest.tar.gz
         x-checker-data:
           type: rotating-url
@@ -54,11 +54,11 @@ modules:
           pattern: https://data.authpass.app/data/artifacts/authpass-linux-(.+).tar.gz
       - type: git
         url: https://github.com/authpass/authpass.git
-        tag: flathub-v1.9.6
+        tag: flathub-v1.9.11
         dest: authpass-git
         disable-submodules: true
         x-checker-data:
           type: git
           tag-pattern: ^flathub-v([\d.]+)$
           version-scheme: semantic
-        commit: a66f67fd4b1a298f39285e9f554f2c0d0fb848f5
+        commit: d645f08921589b283e462abd132e06f0008ead53
